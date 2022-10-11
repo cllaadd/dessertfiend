@@ -1,17 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing:border-box
+}
+
+header {
+    background-color:#FF5A33;
+    color: white;
+}
+
+h1 {
+    width: fit-content;
+    color: #146152;
+    border: 10px outset #B4CF66;
+    padding: 8px;
+
+}
+
 body {
+    border-style: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: Lato, Helvetica, sans-serif;
 }
 
 main {
     padding: 16px;
+    background-color: #FFEC5C;
 }
 
 footer {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 img {
@@ -21,4 +43,32 @@ img {
 nav {
     border-bottom: black solid 1px;
     padding: 16px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #146152;
+}
+
+a:hover {
+    color: #B4CF66;
+  }
+
+footer  {
+    background-color:#B4CF66;
+    color: white;
+}
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(4 ,auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 16px;
+}
+
+.recipe-photo {
+    width: 100%
 }
