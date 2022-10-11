@@ -12,9 +12,7 @@ header {
 h1 {
     width: fit-content;
     color: #146152;
-    border: 10px outset #B4CF66;
-    padding: 8px;
-
+    border-bottom: #B4CF66 dotted 5px;
 }
 
 body {
@@ -41,7 +39,6 @@ img {
 }
 
 nav {
-    border-bottom: black solid 1px;
     padding: 16px;
 }
 
@@ -71,4 +68,19 @@ footer  {
 
 .recipe-photo {
     width: 100%
+}
+
+.recipe {
+    border-bottom: #B4CF66 solid 2px;
+}
+
+.recipe:hover {
+    color: #FF5A33;
+}
+
+.main-page {
+    width: fit-content;
+    color: #146152;
+    border: 10px outset #B4CF66;
+    padding: 8px;
 }
